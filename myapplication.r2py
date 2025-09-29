@@ -13,7 +13,7 @@ lastCharacter =  myfile.readat(1, endPosition)
 log(lastCharacter)
 
 #change 'lamb' in first sentence to LAMB
-myfile.writeat("LAMB", 18)
+myfile.writeat(b"LAMB", 18)
 
 #add sentence to the end
 S=lengthOfFile - (myfile.readat(1, lengthOfFile-1) == b'\n')
